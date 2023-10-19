@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #6499E9;
+}
+
+/* Header Style and Sizing */
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.avatar {
+    width: 8%;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
