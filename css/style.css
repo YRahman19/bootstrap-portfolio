@@ -5,10 +5,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* body {
+body {
     min-height: 100vh;
     background-color: #6499E9;
-} */
+}
 
 /* Header Style and Sizing */
 
@@ -22,3 +22,23 @@
     margin-left: 20px;
     
 }
+
+hr {
+    border: dotted #FFF8C9 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+  /* Work Section */
+
+  .col {
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+
+  .col img:hover {
+    border: 3px solid #ff5733;
+    transform: scale(1.05);
+  }
