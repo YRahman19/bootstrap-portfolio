@@ -43,21 +43,75 @@ hr {
     transform: scale(1.05);
   }
 
-  /* h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #FFF8C9;
-    font-weight: normal;
-    padding-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-  } */
+/* Skills section */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left; 
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: #FFF8C9;
+}
+
+.skills-h3 {
+  color:#FFF8C9;
+}
+
+.container {
+  text-align: center;
+  color: #FFF8C9;
+}
+
+/* About Me Section */
+
+.about {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left; 
+}
+
+.goku {
+  width: 20%;
+  float: left;
+  margin: auto;
+}
+
+.about-h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: #FFF8C9;
+}
 
 
 
-/* Work Section */
 
-/* .container {
-  display: grid;
-} */
+
+
+
+
+
+
+
+/* Media Querys */
+@media (min-width: 768px) {
+  .work-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .work-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
