@@ -27,6 +27,7 @@ https://pages.github.com/
 
 ## Screenshot of my work
 
-![bootstrap-screenshot](https://github.com/YRahman19/bootstrap-portfolio/assets/81781165/56485a7d-cd57-4b2d-a70d-10b5cf25e62e)
+![bootstrap-portfolio](https://github.com/YRahman19/bootstrap-portfolio/assets/81781165/594e007f-16b9-4458-879a-65bab335f1c7)
 
 ## Link to my deployed Site
+https://yrahman19.github.io/bootstrap-portfolio/
