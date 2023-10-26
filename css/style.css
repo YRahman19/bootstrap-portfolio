@@ -67,12 +67,41 @@ body {
   padding-bottom: 10px;
 }
 
-hr {
-    border: dotted #FFF8C9 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+/* Hero Section */
+
+.middle-container {
+  margin: 100px 0px;
   }
+
+  hr {
+      border: dotted #FFF8C9 6px;
+      border-bottom: none;
+      width: 4%;
+      margin: 100px auto;
+    }
+
+    .goku {
+      position: relative;
+    }
+
+    .profile h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      color: #FFF8C9;
+      font-weight: normal;
+      padding-bottom: 10px;
+    }
+
+    .intro {
+      width: 30%;
+      margin: auto;
+    }
+
+    p {
+      line-height: 2;
+    }
+
+
 
   /* Work Section */
   .col {
@@ -117,16 +146,16 @@ hr {
 
 /* About Me Section */
 
-.about {
+#about {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left; 
 }
 
-.goku {
-  width: 20%;
+.goku-about {
+  width: 25%;
   float: left;
-  margin: auto;
+  margin-right: 30px;
 }
 
 h2 {
