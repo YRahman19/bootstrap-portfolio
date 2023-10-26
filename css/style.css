@@ -12,6 +12,21 @@ body {
 
 /* Header Style and Sizing */
 
+.avatar {
+  width: 5%;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+}
+
 .nav a {
   position: relative;
   font-size: 18px;
